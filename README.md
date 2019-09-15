@@ -7,15 +7,21 @@
 A health check appliance for Bitcoin Cash nodes. It checks a list of given nodes against each other and bitcoin.com and fails if any node is more than 3 blocks
 behind the best block seen.
 
-# Usage
+## Usage
 
 ```
 sync-check grpc://bchd.greyh.at8335 rpc://localhost:8334
 ```
 
-# Response
+## Response
 
 On success: Exits with code 0 and no output.
 
 On failure: Exits with code equal to number of failing nodes and prints failing
 nodes to stdout.
+
+## Docker
+
+Docker builds are available on [Docker Hub](https://cloud.docker.com/repository/docker/tylersmith/sync-check).
+
+`docker run --rm tylersmith/sync-check:v1.0.0 grpc://bchd.greyh.at8335 rpc://localhost:8334`
