@@ -1,5 +1,5 @@
 # sync-check
-[![Build Status](https://travis-ci.org/tyler-smith/sync-check.svg?branch=master)](https://travis-ci.org/tyler-smith/sync-check)
+[![Build Status](https://ci.tcrypt.dev/api/badges/tyler-smith/sync-check/status.svg)](https://ci.tcrypt.dev/tyler-smith/sync-check)
 [![license](https://img.shields.io/github/license/tyler-smith/sync-check.svg?maxAge=2592000)](https://github.com/tyler-smith/sync-check/blob/master/LICENSE)
 [![Go Report Card](https://goreportcard.com/badge/github.com/tyler-smith/sync-check)](https://goreportcard.com/report/github.com/tyler-smith/sync-check)
 [![GitHub issues](https://img.shields.io/github/issues/tyler-smith/sync-check.svg)](https://github.com/tyler-smith/sync-check/issues)
